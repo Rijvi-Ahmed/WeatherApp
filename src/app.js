@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const hbs = require('hbs');
 const port = process.env.PORT || 8000;
-const key = process.env.API_KEY;
+
 
 const static_path = path.join(__dirname, "../public");
 const template_path = path.join(__dirname, "../templates/views");
